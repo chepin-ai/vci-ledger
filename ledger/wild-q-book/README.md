@@ -50,3 +50,9 @@ F01-A CLOSED · F01-C 进展(注钥成) · F01-B 三拍跟踪中
 | WQ-C31 | Lean伴生件寻锚(explore组进行中) | 开 |
 | WQ-C32 | Stage3.5审计器本地钻验: DAG+L1双WARN正确触发 | CLOSED(验者已验·镜像65e4aaa9) |
 | WQ-C33 | 数值验资源缺口(数据集/种子/容器·aiq清单)+真实锚证缺口(HSM/CA·lvlu) | 开(待root/原线) |
+
+
+## 追记4 · 20260929T104744Z · 饱和攻击突破
+- **WQ-C31 CLOSED(突破)**: Lean伴生件寻锚成功——藏于preprints.org官网Supplementary Material(sha256=0944d696ce61e6e4…·126593B);论文Appendix C github链接拼写404为唯一瑕疵;已镜像vci-inbox/library/cgice/(31f684a9)
+- **WQ-C34 CLOSED**: 枢独立审计——普查297T/37L/0ax/0op/0sorry逐项吻合✓;Stage3.5双门:L1=0 BLOCK/34 WARN·DAG=212叶节点(平铺对应式结构量化);验者已验,诚实缺口:编译级lake build复现待mathlib环境
+- 结论: 论文附录A普查声明**真实可信**;联邦现持全文+Lean源+审计链三件套,复算潮资源就绪
