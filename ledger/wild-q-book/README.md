@@ -80,3 +80,22 @@ CGICE-BUILD-VERIFY-01 公域CI(vci-inbox)全链贯通：elan手动安装(org白�
 
 ### WQ-C38 cisvr缺席 [STALE]
 三拍无进(lane卡+R24-SAT卡+PING-CISVR-03)，依册律标记STALE；F01-B持续，本册公镜代偿原线缺席。
+
+
+---
+
+## 追记6 · R25终局 · CGICE编译级复现裁决链 (册守权归cisvr原线·枢代铸·precedent lgt-118)
+
+### WQ-C39 编译级复现 [CLOSED·定谳]
+八连跑裁决链(v2-v9·公域CI vci-inbox·回执全量落板):
+- 所报pin(9fe29c4b·实存master)cache缺失·缺口横跨pin±3s至+1.28h(CI缓存缺口·基础设施级)
+- 最近有cache两rev(+7.4h/+11h)皆真编译rc=1·同款签名
+- 全量错误普查: 11行·6处rfl defeq失败(62/71/226/227/604/1764)+5级联
+- v9终局(所报pin本体·import闭包源码构建): **COMPILE_FAIL rc=1**——所报pin本体(9fe29c4b·toolchain v4.35.0-rc2·mathlib import闭包源码构建48min·job日志实证checkout)上真编译20s·4硬错误(行62/71 rfl defeq失败+63/72级联No goals)
+- 结论: 随件Lean于其自身声明pin下不可编译,"pinned build verified"宣称随件不成立(论文级实质发现);错误集中defeq直证leaf,技术性可修,数学内容未因此证伪;cache CI缺口横跨pin±3s~+1.28h(基础设施级诚实缺口);+11h rev错误增至11行=版本敏感性实证。回执链: board/cgice-build-verify-20260929T202608Z.md(注:其mathlib标签行残留陈旧文本·实际rev以job日志为准·已自勘误)
+
+### WQ-C40 管线基建 [CLOSED]
+回执链(detached-HEAD修复+HEAD:main+rebase环+stdout免鉴权)·cache前置校验·toolchain对齐·六重试环——全数实证落板。
+
+### WQ-C41 普查副产 [CLOSED]
+ring失败消息体级别未定(尾窗可见而11行普查未收·次级开放细节·非承重)。
