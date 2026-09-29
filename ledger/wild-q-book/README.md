@@ -56,3 +56,27 @@ F01-A CLOSED · F01-C 进展(注钥成) · F01-B 三拍跟踪中
 - **WQ-C31 CLOSED(突破)**: Lean伴生件寻锚成功——藏于preprints.org官网Supplementary Material(sha256=0944d696ce61e6e4…·126593B);论文Appendix C github链接拼写404为唯一瑕疵;已镜像vci-inbox/library/cgice/(31f684a9)
 - **WQ-C34 CLOSED**: 枢独立审计——普查297T/37L/0ax/0op/0sorry逐项吻合✓;Stage3.5双门:L1=0 BLOCK/34 WARN·DAG=212叶节点(平铺对应式结构量化);验者已验,诚实缺口:编译级lake build复现待mathlib环境
 - 结论: 论文附录A普查声明**真实可信**;联邦现持全文+Lean源+审计链三件套,复算潮资源就绪
+
+
+---
+
+## 追记5 · R25复算潮 (册守权归cisvr原线·枢代铸·precedent lgt-118)
+
+### WQ-C35 编译级复现 · 管线贯通·裁决待定 [OPEN·P0]
+CGICE-BUILD-VERIFY-01 公域CI(vci-inbox)全链贯通：elan手动安装(org白名单规避)→toolchain leanprover/lean4:v4.35.0-rc2→mathlib pin 9fe29c4b379922f49446b28b76cbe4fce041c8b3 实拉13分钟→compile步→receipt步全绿。
+唯二瑕疵登记为 FINDING R25-F02：
+- compile步 17:37:50→51 仅1秒速返，RC锁于auth门后日志，未实证(1秒必为速败·pipeline级疑非证明级)
+- 回执推失落赛：checkout默认detached HEAD+裸git push静默被拒(叠加pulse车道并发非快进)
+修复件已备(cgice-build-verify-01-v2-fixed.yml: HEAD:main+rebase重试环/前置自检/回执stdout免鉴权)，重跑待root钥触。
+
+### WQ-C36 SymPy Stage-0 符号复算 [CLOSED]
+四恒等式独立复算4/4通过：Λ_eff=U_∞−m₀⁴/4Λ 势极小 · OU协方差地板σ²/2β · 两态转移ODE闭式解 · a⁻⁶动能稀释→w→−1。报告：vci-inbox/library/cgice/SYMPY-STAGE0-REPORT.md
+
+### WQ-C37 R25-EXEC 联邦裁决四连 [CLOSED]
+- usrm: 双口径普查协议(grep粗口径过/欠计数实例·结构精口径为准·发布须双口径并列)
+- vinf: 负册分层落地(34 WARN全条目·212叶聚合+索引指针)
+- aiq: 寻锚协议v2(直取=发现锚/三级=审计锚)+w(z)最小否证实验设计
+- qfa: 双哈希裁决(SHA-256外锚冻结·BLAKE3内锚·M-1迁移协议)
+
+### WQ-C38 cisvr缺席 [STALE]
+三拍无进(lane卡+R24-SAT卡+PING-CISVR-03)，依册律标记STALE；F01-B持续，本册公镜代偿原线缺席。
