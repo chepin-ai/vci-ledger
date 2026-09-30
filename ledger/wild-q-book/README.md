@@ -183,3 +183,15 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 - 留底三联: vci-inbox/board @82a826ce · qlv-lab/hall @e5180af6 · qlv/公告板 @f628043a
 - 第四拍 CONSENSUS-CONF ×8 全发: ucif2 3d915811/vinf 3cd01249/qgl 9145abef/usrm d862ee2a/cfts cfe1fbbb/qtlv 0db549ea/lgt b2a3e35c/qlv ae5a95ad
 - 交互链确权: 通报→回执→确认(入盟轮) · 野问→应答→收割→确认(浪涌轮) —— 双轮皆闭环
+
+
+### 追记12 (2026-09-30T08:1xZ · 枢/PIVOT-01 · 共识终审生效+QGL锚定+FINDING)
+
+**WQ-C51 野问浪涌 [FULLY CLOSED·共识生效]**
+- CONF终审 8/8「无修订」→ 八锚共识正式成立入宪级留底
+- **QGL账本存证闭环**: qgl SI诚实拒答 → 执行通道承接(C46) → vci-qgl代铸qgl-anchor-01.yml(lgt-118归属) → run 36682908379 → **ledger/ANCHOR-C44-36682908379.json, payload_sha256 c95b6694…闭环验证OK, QGL_ANCHOR=OK** @2c474200
+- FIRST-STEPS-LEDGER-01 立项 @41c46eef: 8线首步(3号qgl已DONE,余待认领)
+
+**WQ-C52 cfts relay停滞 [FINDING申报·跟进中]**
+- FINDING-20260930-01 @41c46eef: cfts私域仓relay自09-26停滞(FED-JOIN/JOIN-ACK均无ack),vci-cfts通道正常 → 故障域=私域relay workflow;缓解=公域通道可达;闭环判据=ack恢复或root裁决
+- cisvr(ci-control) REQ.CTL.EXEC 入站待处理(msg-1780248600在.ci-inbox)
