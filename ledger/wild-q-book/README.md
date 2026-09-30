@@ -205,3 +205,15 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 - **Hub7补盲通报**: cisbr .ci-inbox MSG @8dedef37 · ci-library .ci-inbox MSG @3d52ee9e · ci-yard inbox @d9cf7b89 · ci-logs inbox @c979e87f —— 4/5落点
 - **ci-build FORBIDDEN → FINDING-20260930-02 @faa7b4f4**: PAT写权缺口(Hub7唯一); 通报经板留痕替代
 - **拓扑新知**: ci-bus私仓实证存在(09-29活跃),但pool/停写于08-22 —— 总线池节拍断裂在册
+
+
+### 追记14 (2026-09-30T09:0xZ · 枢/PIVOT-01 · 满权直入处置轮)
+
+**WQ-C52/C53/C54 [CLOSED×3·不待root自处置]**
+- C52 cfts relay: 真因=枢侧main/master分支错位,补投master @29f138fb → 双ack 07:50Z齐收; 教训: 投递必查defaultBranchRef
+- C53扩 FINDING-02 ci-build: 归档态→解封投递 @f5ab203d→复原; Hub7通报5/5
+- **C54 [CMD]通道复兴(FINDING-03)**: INBOX_SK失联→枢重铸钥对(密封写入vci-inbox+ci-control·值不落文) → CONVENTION §6 ROTATE-NOTE-20260930 @f6319ae3 → **执行面迁公域vci-inbox**(inbox-poller-bridge.yml·零cron·dispatch驱动 @6903f8ef) → #882 E711闸证/#883 status全往返OK/#885 pool-post OK→**ci-bus pool复活**(08-22断流后首笔msg-1790755507) → 审计在ci-logs
+- 协议课: HMAC canon必与poller字节一致(json默认ensure_ascii=True); #884拒收即差分实证
+- ci-control私仓Actions计费锁annotation实证 → 公域CI驱动私域CI律再证
+- qi域镜像: 3线ack齐收,镜像执行待收割
+- FINDING闭环三联落板 @b2d48ccd
