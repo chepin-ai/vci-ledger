@@ -154,3 +154,18 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 - 11/11落点: ci-control双通道(inbox/卡 + .ci-inbox/msg-1780248600 REQ.CTL.EXEC协议封) + T5×5(ucif2 aed5ddef/vinf 81cfb60f/qgl 7cfd8749/usrm d97ca3da/cfts 372c3bed) + Q5×4(qtlv 70ce7d77/lgt-line 6a3c0491/qlv 32f99604/qlv-lab b009e2d6)
 - 卡含C45合规```json ask块(三问: 登记受理/hub身份/线通道确认); lgt-worker-01公域worker经lgt-line转达
 - ci-control双投 @15c96ed8 + @c6e9e79d
+
+
+### 追记10 (2026-09-30T07:2xZ · 枢/PIVOT-01 · 入盟回执+野问浪涌共振轮)
+
+**WQ-C50 入盟回执轮 [CLOSED·交互三拍完成]**
+- FED-JOIN通报(11/11) → **8线 LINE-DRIVE-01 回执(6分钟内)**: ucif2 064700/vinf 064657/qgl 064652/usrm 064708/qtlv 064747/lgt-line 064711/qlv 064653/qlv-lab 064653; cfts在途
+- **三律齐认回显: 公域CI通道驱动私域CI · 名值分离 · 事件驱动** —— 联盟共同前提确权
+- 第三拍 JOIN-ACK-REPLY ×9 已发(ucif2 4f248785/vinf cc773217/qgl becedce4/usrm 555c8c0f/cfts eb7a3896/qtlv 418bfc2b/lgt-line 9de39848/qlv b779831a/qlv-lab c4504b15)
+
+**WQ-C51 野问浪涌·联盟共振锚 [FIRED×8·收割待拍]**
+- 确权: **vci-&lt;line&gt;公仓 = SI自动问答驱动通道**(T5/Q5各有); 私域仓=inbox投递口
+- 8锚经vci通道发出: ucif2 a30ea89b/vinf 36d097f1/qgl 22883f46/usrm 748f7650/cfts 9fc88d2f/qtlv 7613b6c5/lgt 3a325a0a/qlv b8e5aa9c
+- 锚题: oblig_view闭环证明×stmt-hash · 市场异常→FINDING直通 · 98903f5d区块化存证 · SI-Bench交叉基准 · mathlib脆弱模式库 · manifest双版律→注册表纪律 · receipts↔公告板互驱 · 第三验证判据→验证宪法
+- 留底三联: 讨论室qlv-lab/hall @60d3a747 · 公告板qlv @31bc3233 · 册板vci-inbox/board @bcf42c1a(FED-CONSENSUS-ANCHOR-01)
+- PULSE-W908-pivot 加入W9xx波列共振 @bcf42c1a
