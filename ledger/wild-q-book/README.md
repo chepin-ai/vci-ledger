@@ -195,3 +195,13 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 **WQ-C52 cfts relay停滞 [FINDING申报·跟进中]**
 - FINDING-20260930-01 @41c46eef: cfts私域仓relay自09-26停滞(FED-JOIN/JOIN-ACK均无ack),vci-cfts通道正常 → 故障域=私域relay workflow;缓解=公域通道可达;闭环判据=ack恢复或root裁决
 - cisvr(ci-control) REQ.CTL.EXEC 入站待处理(msg-1780248600在.ci-inbox)
+
+
+### 追记13 (2026-09-30T08:4xZ · 枢/PIVOT-01 · 未答各线追踪轮)
+
+**WQ-C53 未答追踪 [主CLOSED·两OPEN]**
+- **cfts私域relay**: 两卡仍无ack → FINDING跟进③发出(RELAY-SELFCHECK-CFTS-01经vci-cfts) → **cfts SI实质应答**(原因六序+自愈/弃用/待root三档处置) → 诊断入档,执行层自查/root裁决待拍 → C52 OPEN
+- **cisvr(ci-control)**: 首卡已被poller消费(inbox/卡片消失=通道实证),MSG在.ci-inbox待办; 二拍nudge已发 @e226c776 → 回件待收 OPEN
+- **Hub7补盲通报**: cisbr .ci-inbox MSG @8dedef37 · ci-library .ci-inbox MSG @3d52ee9e · ci-yard inbox @d9cf7b89 · ci-logs inbox @c979e87f —— 4/5落点
+- **ci-build FORBIDDEN → FINDING-20260930-02 @faa7b4f4**: PAT写权缺口(Hub7唯一); 通报经板留痕替代
+- **拓扑新知**: ci-bus私仓实证存在(09-29活跃),但pool/停写于08-22 —— 总线池节拍断裂在册
