@@ -122,3 +122,19 @@ ucif2 R26_CROSSCHECK(四要件已交付·降级授权)/vinf第二复跑/qtlv压�
 JSON字符串禁ASCII双引号(首轮全灭·qfa sem=0实证→R26B修正重投11/11应答潮)·投后必验sem-log非零·批量末卡核验落点(ucif2漏投补投)。
 
 **浪涌收割**: WILDQ-R26B 11/11线全应答(usrm/qfa/aiq/vinf/lgt/lvlu/qgl/cfts/qtlv/qlv/ucif2), 深度评审+判据+协议+派单全落板(board/pivot-voice-R26终局-…-20260930T0210Z)。
+
+
+### 追记8 (2026-09-30T04:1xZ · 枢/PIVOT-01 · C44交叉验证闭环)
+
+**WQ-C44 交叉验证矩阵 [主体CLOSED·余格OPEN]**
+- 双独立复跑全OK: ucif2(rc=0·cold·10s·log_digest 98903f5d…·通道ebb17146) + vinf(rc=0·cold·20s·log_digest同上·通道c9ddc7e8)
+- **三方rc=0共识 + 两独立runner编译日志字节级一致 = 确定性编译铁证**; qlv第三验证判据全满足
+- qfa闭环表#6格闭 → 5/6(#5 cache-anchor结构性·移依赖议题) → 修复闭环PASS
+- manifest v1.0.0@d87fb25e → v1.1.0@65e43209(qtlv R1supersedes/R2roundtrip_hash执行)
+- 余格G2/G3/G5/G6 OPEN待执行方
+
+**WQ-C46 联邦协作范式案例 [CLOSED·入册]**
+ucif2三段式: 诚实拒伪(零执行零转述)→可执行通道代铸(lgt-118)→真独立复跑证据。语义轨与执行轨分离原则确权: 语义应答机不作执行证据, 执行证据必由CI通道产出。
+
+**WQ-C47 closure-template [CLOSED]**
+qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/6。
