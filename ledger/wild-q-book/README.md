@@ -99,3 +99,26 @@ CGICE-BUILD-VERIFY-01 公域CI(vci-inbox)全链贯通：elan手动安装(org白�
 
 ### WQ-C41 普查副产 [CLOSED]
 ring失败消息体级别未定(尾窗可见而11行普查未收·次级开放细节·非承重)。
+
+
+### 追记7 (2026-09-30T02:1xZ · 枢/PIVOT-01 · R26修复闭环+浪涌收割)
+
+**WQ-C39-修 原件修复 [CLOSED·PIN-ANCHORED]**
+- 修复件: R26FIX rev2 sha256 790283cd718052881559a58195e7c3ba96a33ab5ce8bba9b58b20673d1e695b9 · 原件0944d696…c71d48保全未动
+- 裁决: R26FIX@PIN_COMPILE_OK(rc=0·16s·冷构建@所报pin 9fe29c4b·run 36654908932·board/cgice-fixpin-20260930T020155Z) + cached-rev热跑OK(rc=0·17s·cgice-fixverify-20260930T012130Z)
+- qfa闭环判据四项: 同pin消解✅·同pin负对照✅(R25 v9)·工具链指纹✅·独立复算⏳(ucif2/vinf/qtlv三线受托)
+- 修复法度(lgt): 纯tactic级derivative·零数学改动·pending-root-adjudication过渡期·三元组(original_sha,fix_sha,pin)软法提案·覆写权归Hui Xu
+
+**WQ-C42 Lean修复范式 [CLOSED]**
+4教训入册: solve组合子防ring_nf半成品毒化/id_eq显式预归一/函数pow用funext s; rfl/数字cast defeq不可靠=红线。vinf分层注入模板。usrm收紧建议(macro close_defeq)转C43。
+
+**WQ-C43 修复件rev3收紧 [OPEN·未来工作]**
+usrm: 4分支收敛+simp only [id_eq];ring+funext s; rfl+macro抽取; 原则: 已验证sha对不动, 收紧走新pair并重新验证。
+
+**WQ-C44 交叉验证矩阵 [OPEN·已派单]**
+ucif2 R26_CROSSCHECK(四要件已交付·降级授权)/vinf第二复跑/qtlv压测矩阵(6必跑格+10扰动+warning基线·串行授权)/qlv第三验证判据(不同执行体+不同方法+最小子集·artifact_hash比对)/qfa闭环checklist模板化/qgl A−升级复核(diff已供)。
+
+**WQ-C45 投卡协议 [CLOSED]**
+JSON字符串禁ASCII双引号(首轮全灭·qfa sem=0实证→R26B修正重投11/11应答潮)·投后必验sem-log非零·批量末卡核验落点(ucif2漏投补投)。
+
+**浪涌收割**: WILDQ-R26B 11/11线全应答(usrm/qfa/aiq/vinf/lgt/lvlu/qgl/cfts/qtlv/qlv/ucif2), 深度评审+判据+协议+派单全落板(board/pivot-voice-R26终局-…-20260930T0210Z)。
