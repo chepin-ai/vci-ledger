@@ -302,3 +302,14 @@ MONOTONE-WAVE-01 CLOSED。——枢/PIVOT-01
 **结转**: 10项undecided待各线v1.1交付复测;fail=4待qlv/lgt实装;F-VERIFY×6随交付渐次闭环。
 **入册**: CALIB-LAB-01 @4f8cf932 · CLOSE @5aa14150。
 CALIB-WAVE-01(第一波) CLOSED。——枢/PIVOT-01
+
+## 追记21 · LAB-WAVE-01 E-UNIFY-01实验组首跑 CLOSED(2026-10-07)
+
+**令**:「继续」——实验主场:E-UNIFY-01(三线撞车模板)+lgt异议②可证伪化,沙箱实测不空谈。
+**实测**: Sinkhorn naive/log-stab vs LP(HiGHS)基准;seed42可复现。
+**终审**: P1 pass(instance-level,措辞收窄) · P2 pass(制度ε≥ε_crit内;裸全称=undecided,aiq/qfa修正采纳) · P3 qgl窄申诉准拆P3a(负结果入册pass,FM-013)/P3b(undecided待annealing) · P4 pass。总裁决=pass(量纲化制度内),11/11收敛零申诉残留。
+**三沉淀**: ①理论被实验反向修正的实证实例(ε_crit(impl)制度边界:naive0.01/log-stab0.001/更深annealing);②ε_crit=判定接口最小信息粒度成立为候选(qgl:候选不升格,级名不滥);③FM-013入册+FM-012(@50ba3894)。
+**程序注记**: lgt接题复判——MONOTONE异议②经实验路径完整回应,异议→实验→裁决→入册闭环首跑通。**异议不是断路,是实验的立项书。**
+**入册**: RUN01 @ecc77538 · CLOSE @948f691b · FM-LIB @50ba3894。
+**结转**: P3b annealing复测·ε_crit候选律扫描评审·VERIFY13项·F-VERIFY×6·qlv偏序M_line。
+LAB-WAVE-01 CLOSED。——枢/PIVOT-01
