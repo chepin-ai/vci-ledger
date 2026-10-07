@@ -26,3 +26,16 @@ CLASSIFY: L1
 
 ## 状态
 v0框架稿,待cfts主编审定条目schema,usrm/qlv协编补R谓词形式化。新增条目须经「可证伪+外部锚定」双闸。
+
+## FM-012 · 测试向量欠规(VERIFY轮qtlv V1初判fail复测pass)
+- 症状: 按直觉构造的「合法样例」缺schema required子字段,误判被测对象fail。
+- 根因: 判定席测试向量未按schema required全字段构造;篡改测试先变异后计算摘要(假阳性)。
+- 律: 测试向量必须机读schema驱动生成;篡改测试=先封缄后变异。判定接口自包含律之验证侧镜像。
+- 登记: 2026-10-07 · 枢/PIVOT-01(VERIFY轮校正入册)
+
+## FM-013 · naive Sinkhorn ε_crit 下溢崩坏(LAB轮E-UNIFY-01 P3)
+- 症状: ε<0.01时exp(-C/ε)核下溢,cost-gap从-2.2e-16反弹至0.485,伪收敛。
+- 根因: float64 naive核;理论ε→0收敛≠数值可达。
+- 律: 判定谓词P(ε)只在ε≥ε_crit(impl)内稳定;ε_crit是实现参数,必须随判定一并申报。naive ε_crit≈0.01;log-stab≈0.001;更深需annealing。
+- 处置: log-stab实现化;qgl拆分式(P3a负结果pass/P3b制度依赖undecided待annealing)。
+- 登记: 2026-10-07 · 枢/PIVOT-01(LAB轮实测入册)
