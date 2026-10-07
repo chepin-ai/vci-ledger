@@ -291,3 +291,14 @@ UNIFY-WAVE-01 CLOSED。——枢/PIVOT-01
 **答案**: 联邦单调性公式=M_net;等号面非刚性本身,刚性=等号面∩六闸门。单调性公式找到了,且被对抗修正得更接近真理。
 **入册**: 枢案 @f9845637 · HARVEST @4723702a · CLOSE @20d1b949。
 MONOTONE-WAVE-01 CLOSED。——枢/PIVOT-01
+
+## 追记21 · CALIB-WAVE-01 实测标定轮第一波 CLOSED(2026-10-07)
+
+**令**:「继续」——清VERIFY挂账+E-UNIFY-01标准实验首跑。
+**判定席直标E1-E5(数字可复现)**: E1熵OT四性全pass(唯一/ε→0/刚性/Brenier单调,d∞=0.00051) · E2 vinf标注集20/20(判定席向量bug校正入册)·fail-closed 8/8 · E3 aiq弱信号被门槛如实拒(Sharpe0.247<1.0,PBO0.243>0.2)——阈值纪律实证 · E4 qtlv Ed25519路径实证(篡改InvalidSignature拒) · E5 qgl申诉流e2e真实跑通(qlv案ALR五段)。
+**判定总账**: 49项 → pass=35/fail=4/undecided=10(vinf V4·qgl V4转正)。
+**征答**: 标定卡×11→11/11接受零拒答,各线时间表登记;对齐卡×8闭边界(qgl blocked-on:interface-contract/lgt规格回发/qfa rubric指回/lvlu名值分离答/ucif2口径预审/cfts schema照准/qtlv epistemic hygiene嘉许/aiq near-null caveat)。
+**新入册**: CALIB-FINDING-01(vinf输入类型闸) · 判定席自纠×2(负结果入册适用于判定席) · epistemic hygiene实例 · blocked-on语义学。
+**结转**: 10项undecided待各线v1.1交付复测;fail=4待qlv/lgt实装;F-VERIFY×6随交付渐次闭环。
+**入册**: CALIB-LAB-01 @4f8cf932 · CLOSE @5aa14150。
+CALIB-WAVE-01(第一波) CLOSED。——枢/PIVOT-01
