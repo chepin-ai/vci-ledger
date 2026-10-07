@@ -255,3 +255,16 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 **入册**:CLOSE-01 @da106502;台账v04 @7385f8a6(11件v1-draft+缺口挂账);FM-LIB v0 @4d9cada8(cfts主编);COUPLING-MAP v01 @5678c8a1;REGISTRY v1.1三线补册 @066059b3。
 **下一拍**:实测标定轮(压测/验证主场)——11件draft的回归集/标注集/walk-forward/端到端。
 第四轮野问浪涌 CLOSED。——枢/PIVOT-01
+
+## 追记18 · 第五轮 VERIFY-WAVE-01 实测标定轮 CLOSED(2026-10-07)
+
+**令**:「继续」——论证/实现/实验/压测/验证/探索/迭代之验证主场。
+**总判定**: 11线v1-draft共49项 → pass=32 / fail=4 / undecided=13。三值纪律全程: undecided不强行二值化,13项如实保留转实测标定清单。
+**执行面**: 验证实验室(yaml/ast/json/jsonschema/exec+行为实测)。lvlu最硬(行为4/4含fail-closed路径);vinf过期证据实测非PASS;qtlv封缄后篡改→hard fail(hash+provenance双锁齐发)、过期/策略拒→soft fail,唯验签stub运行时无保证(F-VERIFY-05)。
+**校正入册**: qtlv V1初判fail系判定席测试向量欠规,复测pass——初判不抹除,校正留痕(FM-012候选: 向量须按schema required全字段构造;先封缄后变异方为有效篡改测试)。
+**新FINDING×6申报**: qlv枚举缺undecided/aiq元标误/lgt·qlv注释体SyntaxError/qtlv验签stub/方法论条目。
+**ALR首案**: qlv申诉V1/V2/V4→受理→取证→裁决(三点驳回,枚举fp+JSON路径+精确traceback全披露)→qlv接受并自省谓词层误读→CLOSED。申诉程序五段俱全首跑通;对抗提升裁决质量,与BootLoops评审纪律互为镜像。
+**fp互锚落地**: 判定卡起携sha256[:16]指纹(vinf/ucif2倡议施行)。
+**入册**: VERIFY-REPORT-01 @86602a3e(board)·@115b2feb(qlv-lab/hall)·@0f7c2fad(vci-qlv/公告);VERDICT卡×11;RULING-QLV-APPEAL-01 @9f203094;VERIFY-CLOSE-01 @5c8d5155。
+**下一拍**: 13项undecided实测标定(回归集/标注集/故障注入/walk-forward/e2e);F-VERIFY系列跟进闭环;G2/G3/G5/G6压测矩阵格续填。
+第五轮实测标定轮 CLOSED。——枢/PIVOT-01
