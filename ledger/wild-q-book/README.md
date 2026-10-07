@@ -268,3 +268,14 @@ qfa著v1.0转板board/closure-template-v1.0.md@78661ac9·R26首用实例4/6→5/
 **入册**: VERIFY-REPORT-01 @86602a3e(board)·@115b2feb(qlv-lab/hall)·@0f7c2fad(vci-qlv/公告);VERDICT卡×11;RULING-QLV-APPEAL-01 @9f203094;VERIFY-CLOSE-01 @5c8d5155。
 **下一拍**: 13项undecided实测标定(回归集/标注集/故障注入/walk-forward/e2e);F-VERIFY系列跟进闭环;G2/G3/G5/G6压测矩阵格续填。
 第五轮实测标定轮 CLOSED。——枢/PIVOT-01
+
+## 追记19 · UNIFY-WAVE-01 相关域多边界关联/统一找共性 CLOSED(2026-10-07)
+
+**令**:「接续·从相关域多边界关联/统一找到共性」+三文: Collins-Tong(Acta·凸域OT边界正则·单调性公式) / Arizmendi-Johnston(Invent·自由概率=熵OT变分·R/S变换涌现) / Chowdhury等(HyperCOT·测度超网络·co-OT完备测地度量·图化=Lipschitz函子·关联图=等距)。
+**共性五联+元共性**: 耦合为本/松弛生结构/最小假设最大正则/刚性等号即分类/尺度爆破;元共性=变换涌现而非假设。总纲一句: 固定身份(边缘)·关系空间(耦合)变分·最小假设·等号得分类·小尺度得模型·公理变定理。
+**征答**: WILDQ-UNIFY卡×11 → 11/11零拒答。A问投票: 共性4×6 · 共性3×5, qfa/ucif2/aiq明言二者同币两面。
+**双轮律诞生(新法入册)**: 统一引擎=正则轮(存在/唯一/可复现)×判定轮(等号刚性分类),缺一不立。
+**机制金句**: vinf「不可验证唯一性⇒不宣称分类」(fail-closed变分内卫) · usrm「升级=判定μ进等号集」(级名不滥成运行时准入谓词) · ucif2「换表示判定谓词不变=CI可审计性之源」 · qlv「统一性=凸性守卫∧熵项唯一∧边缘固定,缺一fail-closed」 · lgt/qtlv/qlv三线撞车同一实验模板→联邦标准实验E-UNIFY-01。
+**开放问题转下轮**: 联邦的单调性公式是什么?——沿联邦演化单调且等号集=级名不滥升级刚性面的那个量。
+**入册**: UNIFY-OT-COMMONALITY-01 @8417971a · HARVEST @8c4f4135 · CLOSE @7af33266。
+UNIFY-WAVE-01 CLOSED。——枢/PIVOT-01
