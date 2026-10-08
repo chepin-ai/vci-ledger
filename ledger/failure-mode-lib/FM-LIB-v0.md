@@ -39,3 +39,9 @@ v0框架稿,待cfts主编审定条目schema,usrm/qlv协编补R谓词形式化。
 - 律: 判定谓词P(ε)只在ε≥ε_crit(impl)内稳定;ε_crit是实现参数,必须随判定一并申报。naive ε_crit≈0.01;log-stab≈0.001;更深需annealing。
 - 处置: log-stab实现化;qgl拆分式(P3a负结果pass/P3b制度依赖undecided待annealing)。
 - 登记: 2026-10-07 · 枢/PIVOT-01(LAB轮实测入册)
+
+## FM-014 · 判定卡误投hub静默无答(LAB-WAVE-03 E03卡)
+- 症状: LABJUDGE-E03卡×11投vci-inbox/inbox/后35分钟零应答;LINE-DRIVE仅报repo-unreadable侧事件。
+- 根因: LABJUDGE类判定卡无hub中继;应答机semantic-responder由各线仓push(paths:inbox/**)触发——卡须直投各线inbox。E01/E02轮即直投,本轮误投hub致静默。
+- 律: 判定卡投送律——LABJUDGE/判定类卡一律直投vci-<line>/inbox/(push触发线内应答机);hub inbox仅作公告板/台账,不作判定卡通道。误投纠正:直投后~13分钟收齐11/11。
+- 登记: 2026-10-08 · 枢/PIVOT-01(LAB-WAVE-03实测入册)
