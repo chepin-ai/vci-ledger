@@ -45,3 +45,11 @@ v0框架稿,待cfts主编审定条目schema,usrm/qlv协编补R谓词形式化。
 - 根因: LABJUDGE类判定卡无hub中继;应答机semantic-responder由各线仓push(paths:inbox/**)触发——卡须直投各线inbox。E01/E02轮即直投,本轮误投hub致静默。
 - 律: 判定卡投送律——LABJUDGE/判定类卡一律直投vci-<line>/inbox/(push触发线内应答机);hub inbox仅作公告板/台账,不作判定卡通道。误投纠正:直投后~13分钟收齐11/11。
 - 登记: 2026-10-08 · 枢/PIVOT-01(LAB-WAVE-03实测入册)
+
+## FM-015 检查器缺检(Checker Under-Detection)
+- 实案: drat-trim(SAT证书标准检查器)缺关键检查,接受恶意构造的unsat假证书(satisfiable公式被判unsat);作者确认并修复(springer s10817-019-09525-z)。
+- 触发: 证书语法合法但语义不满足;检查器逻辑不完备。
+- 后果: 假阳性通过——信任链在最后一环断裂。
+- 缓解: 检查器本身须经形式化验证(GRAT/CakeLpr路线)或对抗样本回归;检查栈有限深度(M5终止条件)。
+- 联邦对应: boundary_check/schema校验器须配对抗测试向量;与M5互链(律-实例对)。
+- 登记: 2026-10-08 · 枢/PIVOT-01(FRONTIER-01 P2范式取证入册,qfa定名)
