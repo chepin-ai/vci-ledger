@@ -409,3 +409,10 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **迁移**: K1→A1,K2→T2a,K3→D3,K4→D5,K5→D4;v1作废回滚=revert b1bebe54。
 **积压**: OBL-A1/OBL-T2a(助手化升级)/OBL-U1(逃生穷尽性研究)/OBL-U2(跨卡证据聚合协议)。
 |**入册**: FK-01R @3e0f54e1 · CLOSE-T01 @fd8a4e50 · 复现脚本 @16ed41d2。|LAB-CLOSE-T01 CLOSED。——枢/PIVOT-01
+
+## 追记32 · 2026-10-09 · OMNIBUS-01 全量清账攻坚波 CLOSED(8/11 pass+1终端und+2缺席)
+**令**: 继续攻坚推进,全量全维度完成。
+**清偿**: (1)POLICY-01存量锚硬截止5/5持证(circulant升CERT-CIRC-01:闭式f*=0/g*=-εlnk-ε·lse(-c/ε),Krawczyk ε∈{1,.5,.2}×k∈{6,10}×2种子全内包,K宽≤1.78e-14,负面拒证;f80/Node-C/HiGHS/拍卖定级认证锚,证据=各波已决事实);临时0禁用0。(2)FK-01R全量义务台账v0 24行五值全覆盖。(3)OBL-U2协议v1.1成文(多轮主卡序列)。(4)CERT-MLINE-01线端偏序(qlv挂账清)。(5)新证书×2收编。
+**历程**: T03 2pass+4und+3fail → T03R SEG七段(证伪:判定器上下文=单文件单ask) → T03S致密单卡 6pass → T03T定向轮(已决事实澄清+原始枚举随附) vinf/usrm翻pass → qgl终端und(OBL-Q1) ucif2/qlv缺席。
+**FM-021三段修订**: 正文不抵达/ask 1483截断/跨文件分段不抵达;缓解=多轮主卡序列(T02c/d/e+T03S/T双实证)。
+|**入册**: OMNIBUS-01 @e50fd29d fp ddb4eda099bce2c3 · CLOSE-OMNIBUS-01 @cda3c59e。|LAB-CLOSE-OMNIBUS-01 CLOSED。——枢/PIVOT-01
