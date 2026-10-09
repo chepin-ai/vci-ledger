@@ -381,3 +381,12 @@ LAB-CLOSE-F01 CLOSED。——枢/PIVOT-01
 **判定**: LABJUDGE-F02 ×11→**11/11一致pass**(联邦首次全票);N1-N6登记注记当庭清偿(含「首演非终审」「数值等价非bitwise」措辞锁)。
 **入册**: FRONTIER-02 @e64fed07 fp3772e0021f09d258 · CLOSE-F02 @5c7f4301 fpfd53b09fdb65790d。
 LAB-CLOSE-F02 CLOSED。——枢/PIVOT-01
+
+## 追记29 · FRONTIER-03 META-PIPE-01复演轮(2026-10-08)
+**令**: 继续。异质对象复演以终审元结构。
+**F-X3**: LP锚对偶间隙证书——HiGHS降为不可信候选生成器,区间算术独立认证:对偶可行逐分量rc>=0+δ-deflation(1e-10)修复退化顶点。k=8括弧宽1.121e-11·k=4宽8.038e-11·锚值全在内·腐化对偶阴性对照拒证。**LP锚升级为认证锚**,最优化证书层首案。
+**FM-017**: 退化边界拒证(实捕:直证骑零拒证→deflation修复);最小触发例2×2退化OT(rc恰0.0);margin>包络宽三实例量化(超2-4量级,标注经验证据非已证)。
+**判定**: LABJUDGE-F03 ×11→10 pass+1 undecided(cfts b/c/d)=条件通过;D1-D3当庭清偿(FM-017降级为已观察失效+经验缓解级;流程同一性证据=版本fp锚+双演步骤对照+deflation模块化→**META-PIPE-01终审通过**;「凡作锚者必持证书」以POLICY-CAND-01立案≠通过)。
+**版图**: 证书三层齐备——求值层F-X1/存在性层F-X2/最优性层F-X3。
+**入册**: FRONTIER-03 @7a2f9313 fp f9906fafab825990 · CLOSE-F03 @35435b43 fp 626a124ab0ad9b28。
+LAB-CLOSE-F03 CLOSED。——枢/PIVOT-01
