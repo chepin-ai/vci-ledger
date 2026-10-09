@@ -53,3 +53,10 @@ v0框架稿,待cfts主编审定条目schema,usrm/qlv协编补R谓词形式化。
 - 缓解: 检查器本身须经形式化验证(GRAT/CakeLpr路线)或对抗样本回归;检查栈有限深度(M5终止条件)。
 - 联邦对应: boundary_check/schema校验器须配对抗测试向量;与M5互链(律-实例对)。
 - 登记: 2026-10-08 · 枢/PIVOT-01(FRONTIER-01 P2范式取证入册,qfa定名)
+
+## FM-016 区间层下溢继承(interval-layer underflow inheritance)[候选/已证伪类]
+- 实案: FRONTIER-02区间化初版直写exp((g-C)/eps),eps=1e-3时上溢inf/下溢致log非正=NaN;与FM-013同族。
+- 触发: 点值算法逐算子区间化而未重构敏感原语(lse/softmax/归一化)。
+- 后果: 区间求值产生NaN/inf,证书失效或假拒证。
+- 缓解: 敏感原语以max-shift移位形式重写并配负例回归;区间化不自动免疫表示界。
+- 登记: 2026-10-08 · 枢/PIVOT-01(FRONTIER-02对抗复核腿自捕获,usrm/qfa范围限制注记)

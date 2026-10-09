@@ -372,3 +372,12 @@ LAB-CLOSE-06 CLOSED。——枢/PIVOT-01
 **史观**: 联邦从「数值判定分级」升维至「跨范式信任制度化」;元结构非联邦私产而系P1-P4共有隐式结构,联邦贡献=显式化+机检化+可申诉化。
 **入册**: FRONTIER-01 @eaa15add fp f61062a4398654f7 · CLOSE-F01 @e75077fc fp 725a3a13c1b87096。
 LAB-CLOSE-F01 CLOSED。——枢/PIVOT-01
+
+## 追记28 · FRONTIER-02 META-PIPE-01首演轮(2026-10-08)
+**令**: 继续。以META-PIPE-01 v1.1全程跑新候选对象(dogfooding)+清偿A2。
+**F-X2**: Sinkhorn不动点Krawczyk存在性+唯一性证书(规范化f0钉零,k=4,R=1,eps=1e-3)——seed11/12双实例盒半径1e-12内认证成立(K宽2.07e-13/6.71e-14),+1e-6阴性对照正确拒证,解析Jacobian一致。**存在性层首案登记**(存在/唯一分离标注)。
+**A2清偿**: C/gcc -O2第三运行时 |Δcost|=2.706e-15+迭代8050=8050逐位一致;独立性轴3运行时×2表示=6路径。
+**对抗复核实捕FM-016**: 区间层下溢继承(直写exp/ε上溢,max-shift lse修复)——管线自检按设计工作。
+**判定**: LABJUDGE-F02 ×11→**11/11一致pass**(联邦首次全票);N1-N6登记注记当庭清偿(含「首演非终审」「数值等价非bitwise」措辞锁)。
+**入册**: FRONTIER-02 @e64fed07 fp3772e0021f09d258 · CLOSE-F02 @5c7f4301 fpfd53b09fdb65790d。
+LAB-CLOSE-F02 CLOSED。——枢/PIVOT-01
