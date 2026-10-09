@@ -428,3 +428,19 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **FM-022 入册**：判定卡顶层 ask 键契约——缺键静默跳过（EXT01 批次 11 卡作废实证）；FM-021 扩为四段版。
 
 **新义务**：OBL-EXT-01 环状六实例 leancert 移植；OBL-EXT-02 Hexagon TeX 备稿+授权询函；OBL-EXT-03 Axle SDK 云端重放验证；OBL-EXT-04 Rice 归约桥 Lean 陈述。
+
+## 追记34 — EXT-WAVE-02 饱和攻击执行波：Lean 机器验证落地 + root 边界抵达 2026-10-09
+
+枢。令「全量全维度搜索突破饱和攻击迭代推进直至需要root干预」。EXT01 裁定路线全量执行至 root 边界，判定 11/11 pass（EXT03 8p+2u+1迟 → EXT03B 补强双翻）。
+
+**硬成果**：
+1. **T2a Rice 归约桥 Lean 化并云端严格验证**（OBL-EXT-04 M2.1 清偿）：t2a_bridge（外延封闭∧非平凡→¬ComputablePred，Mathlib rice₂ 直达）+ t2a_instance（零点存在性不可判定，Code.const 双证人）。Axle verify_proof 双通过（无 sorry/白名单公理/签名匹配，request c2a58cfa/a446bfd2）。**#print axioms 云端审计：仅 [propext, Classical.choice, Quot.sound]，无 sorryAx，TCB 清洁**。联邦内核第一条 Lean 机器验证定理诞生。
+2. **CERT-CIRC-LEAN-01 leancert 移植备稿**（OBL-EXT-01 M1.2 备稿清偿）：k=6/ε=1 显式有理 c，11 维 gauged 系统 Expr 化（log6 精确保留为 Expr.log(const 6)），有理中心/预条件子/盒 1e-9。Python 区间复验 K 宽 2.04e-14 严格内包 + 负面控制拒收。pin leancert v4.34.1（Zenodo DOI 10.5281/zenodo.21681348）。
+3. **Axle 公共层无 key 实战接入**（OBL-EXT-03 清偿）：check/verify_proof 直用；边界实测：公共环境仅 batteries/Qq/Mathlib，无 LeanCert（云端 leancert 编译需自定义环境申请）。
+4. **Hexagon 备稿三件套**（OBL-EXT-02 备稿清偿）：main.tex 五节成果稿 + AI 使用声明 + admin 询函草稿。
+
+**判定学新知**：ucif2/aiq 的 Q3 undecided 是对「穷尽性」全称主张的程序性要求——封闭清单穷尽列示 + 公理审计补强后双翻 pass。FM-021 多轮主卡序列第三次实证有效。
+
+**root 干预项（冻结点）**：① Hexagon 投稿=人类 ORCID 挂名+发出询函（AI 不能挂名是平台硬条款）；② leancert 编译验证=Axle 自定义环境申请或任意外部机器 lake build。
+
+**结转**：OBL-EXT-01r 五例批量（衍生）/02r 投稿（root）/03r 环境验证（root）/04r 参数化实例（增量）。
