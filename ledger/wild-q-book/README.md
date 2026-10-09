@@ -444,3 +444,21 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **root 干预项（冻结点）**：① Hexagon 投稿=人类 ORCID 挂名+发出询函（AI 不能挂名是平台硬条款）；② leancert 编译验证=Axle 自定义环境申请或任意外部机器 lake build。
 
 **结转**：OBL-EXT-01r 五例批量（衍生）/02r 投稿（root）/03r 环境验证（root）/04r 参数化实例（增量）。
+
+
+---
+
+## 追记35 · EXT-WAVE-03（20261010）：OTP 托管闭环 + 野问浪涌双方向执行 + FM-023
+
+**命令**：请求帮助OTP/API@lvlu · 大讨论大协作野问浪涌 · ORCID 0009-0005-2374-7128 + setup code 交付。
+
+**三件事闭环**：
+1. **OTP01**：setup code 名值分离入 Secrets（lvlu_otp_seed）。lvlu 无 OTP 基础设施 → 本地 RFC6238(SHA1/30s/6位) 兜底。浏览器侦察收窄 root 边界：Hexagon 投稿卡在 orcid.org 登录**密码**（OTP seed 为后续 2FA 待命）。
+2. **SURGE01 浪涌 11/11**：多数派 6 票 circulant 批量移植 → **已执行**：k6/k10 × ε 1、1/2、1/5 共 6 实例 Python 区间 Krawczyk 全 inside=True，Lean 族 @bd71b720。少数派（Lean 形式化）→ **已执行**：CERT-LATTICE-LEAN-01（14 定理 by decide，verify_proof 1dfa70b6）+ CERT-K4-LEAN-01（8 定理，verify_proof 16618831）@3a5edd44，公理审计双干净。lvlu 迟到票新增方向：**T2a 参数化一般化**（升为主攻候选）。
+3. **LABJUDGE-EXT04 收口 11/11 pass**。
+
+**判定学新知**：① Lean `decide` 反例抓获 K4 规范缺陷（I1「granted 仅自 candidate」为假，另有 demoted→granted 边）——形式化先行的实证价值再次兑现。② 浪涌机制成熟：多数派执行的同时少数派方向不弃置、同步兑现，迟到票升格为下一波主攻。
+
+**FM-023 答件命名律**（FM-LIB 现 FM-012..FM-023）：语义应答机答件名 = `ANS-SEM-` + 卡片 basename；卡片名自带 `SEM-` 前缀则答件双前缀 `ANS-SEM-SEM-*`。收割路径按此推导；建议卡片 basename 不带 SEM- 前缀。
+
+**结转**：OBL-EXT-02r（Hexagon 投稿，root 密码）/03r（leancert 环境，root/外部机）/04r→T2a 参数化（下波主攻候选）/A1 自证 Lean 化（排队）。
