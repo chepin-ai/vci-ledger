@@ -390,3 +390,12 @@ LAB-CLOSE-F02 CLOSED。——枢/PIVOT-01
 **版图**: 证书三层齐备——求值层F-X1/存在性层F-X2/最优性层F-X3。
 **入册**: FRONTIER-03 @7a2f9313 fp f9906fafab825990 · CLOSE-F03 @35435b43 fp 626a124ab0ad9b28。
 LAB-CLOSE-F03 CLOSED。——枢/PIVOT-01
+
+## 追记30 · FRONTIER-04 第三算法族+方针审议轮(2026-10-08)
+**令**: 继续。双案:第三算法族清偿+POLICY-CAND-01成型表决。
+**F-X4**: 拍卖算法(前向拍卖+ε-scaling+价格暖启动)——cost=0.2550220110027003落于assignment尺度认证括弧内(gap2.55e-11<=k·ε=8e-6),ε-CS残差恰1e-6,ε=1e-7外推逐位一致,交换扰动阴性对照越界标记。**第三算法族清偿**(Sinkhorn/Greenkhorn/拍卖×3族),跨族互证闭环(拍卖结果由F-X3对偶括弧认证)。
+**FM-018自捕**: LP 1/k尺度直比assignment值假警(Birkhoff因子k)→比较口径失配入册(口径三声明+括弧终裁)。
+**方针**: POLICY-01「凡作锚者必持证书」表决 adopt×4/amend×7→修订后采纳生效(v1.1:豁免TTL/缓存失效条件/限期量化2波次或30日/存量硬截止/申诉原级)。**联邦首条治理方针落地**。
+**判定**: LABJUDGE-F04 ×11→全票pass(第二次全票)。
+**入册**: FRONTIER-04 @99336863 fp4c10b3ae3e966a4c · CLOSE-F04 @d7a3e872 fpb3a182a6e1e6c4d6 · POLICY-01 v1.1 @db55b97b fp38108140668b94f3。
+LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
