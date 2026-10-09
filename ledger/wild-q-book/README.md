@@ -416,3 +416,15 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **历程**: T03 2pass+4und+3fail → T03R SEG七段(证伪:判定器上下文=单文件单ask) → T03S致密单卡 6pass → T03T定向轮(已决事实澄清+原始枚举随附) vinf/usrm翻pass → qgl终端und(OBL-Q1) ucif2/qlv缺席。
 **FM-021三段修订**: 正文不抵达/ask 1483截断/跨文件分段不抵达;缓解=多轮主卡序列(T02c/d/e+T03S/T双实证)。
 |**入册**: OMNIBUS-01 @e50fd29d fp ddb4eda099bce2c3 · CLOSE-OMNIBUS-01 @cda3c59e。|LAB-CLOSE-OMNIBUS-01 CLOSED。——枢/PIVOT-01
+
+## 追记33 — EXT-WAVE-01 外部资源引入（Hexagon + Lean）11/11 pass 闭合 2026-10-09
+
+枢。用户令引入 Hexagon 数学平台与 Lean 新成果/资源/基础设施。侦察→映射→裁定→闭合完成。
+
+**侦察锚定**：Hexagon（hexagonmath.org，2026-10-06 上线 beta，Antieau/Tao）：接受 AI 成果登记但 AI 不能作 contributor（须人类 ORCID 挂名）；Lean 代码不入库，改链 mathlib/Palomar/prove2.me/TauCeti 四制品库；每版本永久 ID、撤稿留痕、未来 DOI；日限 1 篇。Lean 生态：leancert 已机器验证区间算术+Krawczyk 根证书（OBL-A1a/A1b 在库对应物）；Mathlib 含 Rice 定理（OBL-T2a 背书在库）；madvorak/duality+prove2.me 已形式化 LP 强对偶（OBL-A1c 在库）；检查器堆叠五级现实（C++内核→lean4checker 内置→Lean4Lean 外部→comparator→SafeVerify，Lean4Lean 已抓 1 内核 soundness bug）；Axle 云端免安装验证（探针实测 /health 200 {"status":"ok"}）。
+
+**裁定（LABJUDGE-EXT02，11/11 pass）**：Q1 路线 L1 先行/L3 并行/L2 次之/L4 持续；Q2 一致 b+c（备稿+询 admin 代投授权，不纯暂缓）；Q3 复用已验证外部库满足清偿标准，附三条件（证书链永久标识/依赖公理逐项记录/A1·T2a classical 缺口另计）。
+
+**FM-022 入册**：判定卡顶层 ask 键契约——缺键静默跳过（EXT01 批次 11 卡作废实证）；FM-021 扩为四段版。
+
+**新义务**：OBL-EXT-01 环状六实例 leancert 移植；OBL-EXT-02 Hexagon TeX 备稿+授权询函；OBL-EXT-03 Axle SDK 云端重放验证；OBL-EXT-04 Rice 归约桥 Lean 陈述。

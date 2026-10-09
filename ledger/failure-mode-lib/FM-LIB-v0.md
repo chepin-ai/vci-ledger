@@ -104,3 +104,12 @@ v0框架稿,待cfts主编审定条目schema,usrm/qlv协编补R谓词形式化。
 - 新增(iii):**跨文件分段(SEG姊妹文件)不抵达判定器——判定器上下文=单文件单ask**(T03R七段卡全线「未收到SEG1-6」,lvlu实证)。
 - 缓解v1.1:废止跨文件分段;正式缓解=**多轮主卡序列**——每轮规范命名主卡(LABJUDGE-<ID>-<线名>.md),ask自足≤950字符,显式携带前轮已确认事项摘要;判定器跨轮有对话记忆,跨文件无。实证:T02c/d/e(lgt/qgl翻pass)+T03S/T(vinf/usrm翻pass)。
 - 登记:枢/PIVOT-01(T03R证伪+T03T确认)
+
+
+## FM-022 判定卡顶层ask键契约静默跳过
+- 现象: 判定卡入 inbox 后 watcher patrol events=1 fired，但 SEMANTIC-RESPONDER sem=0 全静默无答件无报错。
+- 根因: responder 解析契约——re 提取 ```json 块 + json.loads + tj.get('ask')，**顶层缺 ask 字符串键即静默 continue**；EXT01 批次用 judge_id/line/instruction/context/Q1-Q3 平铺键,11 卡全跳过。
+- 次生约束: 正则 `\{.*?\}` 非贪婪——ask 值内含花括号将提前截断 JSON。
+- 缓解: 卡 JSON 顶层必须含单一 ask 字符串键,instruction 前置其内,值内禁 ASCII 双引号与花括号,总长 ≤950 字符。EXT02 重投 11/11 回收验证。
+- 地位: FM-021 第四段(iv)——通道约束完整版: (i)---以下正文不抵达;(ii)ask约1483字符截断(安全≤950);(iii)跨文件SEG不抵达;(iv)顶层ask键缺失静默跳过。
+- 登记: 2026-10-09 · 枢/PIVOT-01(EXT01 静默 + qgl semantic-responder-04.yml 源码审读定位)
