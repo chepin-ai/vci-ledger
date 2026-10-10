@@ -481,3 +481,21 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **工程新知**：verify_proof formal_statement 须含自定义定义块（structure/def 真体）；omega 不穿透 beta 红点（show 解法）。
 
 **结转**：OBL-EXT-02r 细化=root 复核 ORCID 密码；03r leancert 环境冻结；下波=circulant Lean 编译/Hexagon 询函/T2a 模板入稿。
+
+---
+
+## 追记 37 · EXT-WAVE-04b（2026-10-10 下午）— ORCID 打通 · Hexagon 首投提交 · 公域CI驱动私域能力定型
+
+**命令**：「全量同步推进。OCID邮箱/密码已交付。lvlu可以操作2FA，你也可以」+ root 途中供恢复码×3、验证链接×2、实时 TOTP×1。
+
+**战果**：
+1. **ORCID 登录打通**（恢复码通道）：三码三登全成。实证定谳——浏览器上下文每用户轮重置 → TOTP 30s 窗活不过重登录链（726915 被拒）；恢复码一次性无过期 = 唯一稳健跨轮通道。lvlu_otp_seed 与账户不匹配的既往判（FM-024c）侧证成立。
+2. **Hexagon 账户全开通**：ORCID OAuth 绑定 / 邮箱 Verified / 额度 1/UTC日 / API 凭据 hexagon_sub_token 名值分离入库（Secrets + Actions secret 双位）。
+3. **公域 CI 投稿通道建成并一次跑通**：负载 GraphQL 落盘 → push 触发 Actions → 浏览器 UA 破 CF-1010 → 幂等续传（409=成功修复 @ba3ea09f）→ preview ready → **commit 202**：**hexagon:2610.00183 / 2610.00183v1**，processing（screen→moderation）。题名 *A Machine-Checked Kernel for Federated Automated Adjudication*（格完备/生命周期不变量/认证数值锚/参数化 Rice 模板四件齐入稿；anc/ 披露保 AI 溯源）。
+4. **LABJUDGE-EXT06 首收 11/11 pass**——无补强全票，补强机制本轮未启用即收口。
+
+**判定学新知**：「下游异步态不阻塞波次收口」获 11 线一致复述（processing/moderation = 交付后观察项），与 EXT03B/EXT05B 判例合流为常数链。
+
+**工程新知**：Hexagon upload 幂等续传语义 / preview 软闸门 / commit 202 即保留 identifier；GraphQL createCommitOnBranch 的 repositoryNameWithOwner 必须 String!；CI 结果回写目录须在触发路径外防循环，push 段 pull --rebase 重试环抗 checkout-to-push 竞态（dd038b8f 失结果之鉴）。
+
+**结转**：screen/moderation 轮询观察（2610.00183）；admin 询函待 root 发；Palomar/Prove2.me 挂列解锁 formalization 链接位；恢复码库存 0 待 root 续供；OBL-EXT-03r 冻结如旧。
