@@ -462,3 +462,22 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **FM-023 答件命名律**（FM-LIB 现 FM-012..FM-023）：语义应答机答件名 = `ANS-SEM-` + 卡片 basename；卡片名自带 `SEM-` 前缀则答件双前缀 `ANS-SEM-SEM-*`。收割路径按此推导；建议卡片 basename 不带 SEM- 前缀。
 
 **结转**：OBL-EXT-02r（Hexagon 投稿，root 密码）/03r（leancert 环境，root/外部机）/04r→T2a 参数化（下波主攻候选）/A1 自证 Lean 化（排队）。
+
+
+---
+
+## 追记36 · EXT-WAVE-04（20261010）：主攻双执行 + OTP 普查定式 + EXT05B 补强第三双翻
+
+**命令**：全量同步推进下波主攻候选 · OTP 基础设施全联盟查询/咨询@usrm · root 手机验证码可回应 · ORCID Email/iD+密码交付。
+
+**四线战果**：
+1. **T2a 参数化一般化**（lvlu 浪涌提案）落地：CERT-T2A-TEMPLATE-01，rice_bridge/ext_of_pointwise/rice_pointwise 三模板 + 三实例，6 定理云端 verify_proof 全过、公理审计干净 @577b1a4f。Rice 桥从「单点实例」升格为「可调用模板」——全联邦证明复制成本下降路径打通。
+2. **A1 检查器自证 Lean 化**（vinf/ucif2/qfa 三票方向）落地：CERT-SELFCHECK-01，accept⟹correct 最小可信核 4 定理云端全过 @f8cb83e7。
+3. **OTP02 普查 11/11**：联盟无 OTP 基础设施；定式=本地 RFC6238（名值分离 seed）+ root 手机人工兜底。usrm 咨询已答。ucif2 最小权限拒代管合规正确；qtlv 合规过度谨慎已澄清。
+4. **ORCID 实测**：三次登录静默清空未达 2FA，停手防锁定，密码复核列 root 项。
+
+**判定学新知**：EXT05 首收 10p+1u（usrm：验证侧未闭环不宜 pass）→ EXT05B 补强（引 EXT-WAVE-02 root 边界收口同口径 + 交付=入库+实测反馈的命令口径）→ usrm 翻 pass。**补强双翻第三次复现**（EXT03B×2 → EXT05B），「root 边界项不阻塞波次收口」已成联邦判例常数。
+
+**工程新知**：verify_proof formal_statement 须含自定义定义块（structure/def 真体）；omega 不穿透 beta 红点（show 解法）。
+
+**结转**：OBL-EXT-02r 细化=root 复核 ORCID 密码；03r leancert 环境冻结；下波=circulant Lean 编译/Hexagon 询函/T2a 模板入稿。
