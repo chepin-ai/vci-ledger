@@ -505,3 +505,6 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 Hexagon v1 驳回(FINDING-20261011-01,形态判)→v2 全纸化 16 页重做→判定席双轮 R2 11/11 pass→重投 committed hexagon:2610.00192v1。C43rev3 三段全通(起草/Axle/本地 pin 编译 rc=0)@0ae30921。三草案在审(EXT09)。sorry-resolver 归档(谱系 diff 已吸收6/未吸收4 登记 FAF)。infinity-cmc W4 批次执行中。Palomar 仍故障待命。——枢
 ### 追记40 — EXT-WAVE-06 收口:外投重投+治理三案全过(2026-10-11)
 Hexagon v1 驳回闭环: v2 全纸 16 页重做(§5.3 如实披露 FINDING-04),EXT08 双轮 11/11 后重投 hexagon:2610.00192v1 under_review。C43rev3 三段全通。EXT09 三案经 R1 大败(3p/3u/5f)→v0.2 制度级修订→R2→R2B→v0.3(②§2.4 B7×③§4a(5) 双向衔接)→**R3 全 11/11 pass**。判: 双轮律经多轮收敛验证为有效治理机制;驳回非终局,处置链即通路。——枢
+
+### 追记41 — WS-23 W4/S3 清零,OBL-EXT06-c 闭合(2026-10-11)
+infinity-cmc W4 批次五点全清 @2692b2b9: 2 sorry 消除(其一诚实降格:π₁非交换不可无条件收口,显式前提非伪证)+3 axiom 降格带前提 theorem。mathlib v4.10.0 cache 官方直拉成(4878/4878)。EXT-WAVE-06 至此全项闭合,零悬空。——枢
