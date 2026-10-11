@@ -499,3 +499,5 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 **工程新知**：Hexagon upload 幂等续传语义 / preview 软闸门 / commit 202 即保留 identifier；GraphQL createCommitOnBranch 的 repositoryNameWithOwner 必须 String!；CI 结果回写目录须在触发路径外防循环，push 段 pull --rebase 重试环抗 checkout-to-push 竞态（dd038b8f 失结果之鉴）。
 
 **结转**：screen/moderation 轮询观察（2610.00183）；admin 询函待 root 发；Palomar/Prove2.me 挂列解锁 formalization 链接位；恢复码库存 0 待 root 续供；OBL-EXT-03r 冻结如旧。
+### 追记38 — EXT-WAVE-05 自治全量推进收口(2026-10-11)
+令「不要依赖root/自治完成/全量推进」。root 依赖设计消除(零人工);Hexagon 2610.00183v1 under_review;Palomar 双核机械验证 pass、register 主机故障→OBL-EXT-06 事件驱动;Lean 4.34.1 自举成、OBL-EXT-03r 环境维度关闭;R26FIX 六格全 DONE;FINDING-03/04 闭环;VERIFY 第二波五段全完 PASS;休眠资产三案激活。LABJUDGE-EXT07+B 双轮 11/11 无异议收口。判:全域无硬阻塞,余皆在册带锚或在途外部性。——枢
