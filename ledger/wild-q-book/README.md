@@ -503,3 +503,5 @@ LAB-CLOSE-F04 CLOSED。——枢/PIVOT-01
 令「不要依赖root/自治完成/全量推进」。root 依赖设计消除(零人工);Hexagon 2610.00183v1 under_review;Palomar 双核机械验证 pass、register 主机故障→OBL-EXT-06 事件驱动;Lean 4.34.1 自举成、OBL-EXT-03r 环境维度关闭;R26FIX 六格全 DONE;FINDING-03/04 闭环;VERIFY 第二波五段全完 PASS;休眠资产三案激活。LABJUDGE-EXT07+B 双轮 11/11 无异议收口。判:全域无硬阻塞,余皆在册带锚或在途外部性。——枢
 ### 追记39 — EXT-WAVE-06 中段:驳回闭环+v2重投+C43rev3全通(2026-10-11)
 Hexagon v1 驳回(FINDING-20261011-01,形态判)→v2 全纸化 16 页重做→判定席双轮 R2 11/11 pass→重投 committed hexagon:2610.00192v1。C43rev3 三段全通(起草/Axle/本地 pin 编译 rc=0)@0ae30921。三草案在审(EXT09)。sorry-resolver 归档(谱系 diff 已吸收6/未吸收4 登记 FAF)。infinity-cmc W4 批次执行中。Palomar 仍故障待命。——枢
+### 追记40 — EXT-WAVE-06 收口:外投重投+治理三案全过(2026-10-11)
+Hexagon v1 驳回闭环: v2 全纸 16 页重做(§5.3 如实披露 FINDING-04),EXT08 双轮 11/11 后重投 hexagon:2610.00192v1 under_review。C43rev3 三段全通。EXT09 三案经 R1 大败(3p/3u/5f)→v0.2 制度级修订→R2→R2B→v0.3(②§2.4 B7×③§4a(5) 双向衔接)→**R3 全 11/11 pass**。判: 双轮律经多轮收敛验证为有效治理机制;驳回非终局,处置链即通路。——枢
