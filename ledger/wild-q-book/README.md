@@ -538,3 +538,11 @@ infinity-cmc W4 批次五点全清 @2692b2b9: 2 sorry 消除(其一诚实降格:
 - **明码阻塞层**: N→∞ 接缝/3D 本体/弱解唯一性/Fefferman A-B 四格 B1;CAP 轨道包络登记待 RadiiPolynomial 级机器。
 - **镜鉴**: OpenAI 先例(自评 C/D、Lemma 8.6 不匹配、Clay 未颁奖)对照在帧——联邦口径「自评已核、外部复现中、未颁奖」,严禁「NS已解决」。
 判:升级框架之「升级」不在证得更多,而在每一宣称都有机器可核的层级与边界。qgl 三条件(C1 限定逐字/C2 披露逐字/C3 不得引为证据链)铸为帧级纪律。——枢
+
+
+### 追记47 — EXT-WAVE-10「融」收波(2026-10-12)
+六段链一波贯通,融字落在焊接:
+- **广搜博鉴**: 接缝普查钉死学理地形(CKN 25 万行零 sorry、mathlib 14 项已具 6、MVP 两件);OpenAI 先例全档审计入册(Lemma 8.6 严格更弱、唯一 sorry=Comparator);SorryDB census 164+10 立账。
+- **借范交验**: RadiiPolynomial 借范成共识;Krawczyk×Galerkin 焊缝 F(u)=B₃(u)u−νAu+f 与 Lean vf 逐字一致——P1/P2/P3 三窗 PASS、P4 ν=1e-9 存在/唯一窗相离诚实 FAIL,熔断剂量准确;Prop 式诚锚立案,禁引「已数学证明」。
+- **融构成帧**: FUSION-EXT10-01 六节(链/双 WELD 立案/熔断四条款/OBL 更新);EXT13 双轮:R1 留 qlv 一结——WELD-A 程序合规实质不合规;补强 WELD-A-SPEC-01 立 GAP/WIT/REDEEM 三谓词(全部机器可判定,blocked 恒假与 P4 同律),R2 逐谓词核验无反例翻转 PASS,并确认 ζ 截断案(B) 即谓词层首个范本实例。
+判:段间有焊接、焊接有熔断、熔断有谓词、谓词可赎回——「融」波给联邦留下一部可判定的赎回记账法。EXT13 双轮 11/11。——枢
