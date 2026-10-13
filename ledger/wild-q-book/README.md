@@ -546,3 +546,12 @@ infinity-cmc W4 批次五点全清 @2692b2b9: 2 sorry 消除(其一诚实降格:
 - **借范交验**: RadiiPolynomial 借范成共识;Krawczyk×Galerkin 焊缝 F(u)=B₃(u)u−νAu+f 与 Lean vf 逐字一致——P1/P2/P3 三窗 PASS、P4 ν=1e-9 存在/唯一窗相离诚实 FAIL,熔断剂量准确;Prop 式诚锚立案,禁引「已数学证明」。
 - **融构成帧**: FUSION-EXT10-01 六节(链/双 WELD 立案/熔断四条款/OBL 更新);EXT13 双轮:R1 留 qlv 一结——WELD-A 程序合规实质不合规;补强 WELD-A-SPEC-01 立 GAP/WIT/REDEEM 三谓词(全部机器可判定,blocked 恒假与 P4 同律),R2 逐谓词核验无反例翻转 PASS,并确认 ζ 截断案(B) 即谓词层首个范本实例。
 判:段间有焊接、焊接有熔断、熔断有谓词、谓词可赎回——「融」波给联邦留下一部可判定的赎回记账法。EXT13 双轮 11/11。——枢
+### 追记48 — EXT-WAVE-11「赎」收波(2026-10-13)
+赎回记账法首实例落地,赎字落在见证:
+- **GAP 立**: WS-64 ZetaAnchor.lean 四锚零 sorry 实编译(critLine/zetaIsolationAnchor/zetaUniqueZeroAnchor/zetaAnchorImpliesRHCriticalLine),gap_probe_zeta.sh 机器判定 G3' 双缺席(riemannZeta_ne_zero_of_one_le_re/Hardy Z ABSENT,对照 riemannZeta PRESENT,fail-closed;探测域 mathlib v4.10.0 符号表,工程层事实非元数学结论)。
+- **WIT-W1 分层**: ζ 见证链三证书 v1.0.1——iso100 存在性 29 组 IVT 括号 PASS;iso1000 存在性 649 括号 PASS、完备性 BLOCKED(B1-TB) time-box 诚实熔断(retry_budget 入档);psi-trunc x0=10⁷+0.5 残差∈[−3365.36,3142.19]⊆Dudek 形界 ±5195860.44 PASS(管道演练级,scope_fence 移出完备性计数)。逐字披露「有限高度 T=100/1000 截断」「区间见证层 PASS、kernel 层未证、非 RH 证据」+增句「存在性 PASS ⊊ 计数 PASS」。
+- **诚实仲裁**: iso100 完备性 Backlund 门 fail-closed 拒证(Σw=171.95rad/232 盒未计张角余量,N_B=[29.09812430226496,29.09812430426496] 无唯一整数,跨环境位级一致)——KI-EXT11-1 降格数值演示级,不调参逼 PASS(P4),挂号 OBL-EXT11-a(关闭条件写死:张角余量纳入后 N_B 落入唯一整数窗,禁放宽区间宽度绕过)。
+- **灾备闭环**: FINDING-20261013-01 两度整盘重置——申报@cfa41ebd+ADD1(×16 修补逐条 diff/三层边界/让渡/哈希锁定)+ADD2(二次零损失),R-HUB-01 里程碑即同步律立法,日志直写 /mnt。
+- **勘误**: 定案卡「绕数=58」正为 N(T)=29(ρ=1−ρ̄ 线内重合,deviation(4)),ERRATUM 独立建档,全仓回扫无其他 58 依赖。
+- **判定双轮**: LABJUDGE-EXT14 R1 11/11 CONDITIONAL→SUP-01 逐条补强(五元绑定/BLOCKED 子码/tier 统一/护栏逐字)→R2 4 线直 PASS+6 线要原文→R2B 证据包三卡(oid 全链/字段级零改动 diff 44 数学字段/四件哈希全值/58 回扫/env 探测)→R3 终投。
+判:赎者,缺口有证、证有层级、层级有机核、核有双轮——谓词层记账法首次全链路走通。——枢
